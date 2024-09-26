@@ -17,8 +17,7 @@ Berikut adalah perbaikan dari HTML yang telah Anda kirimkan:
     />
   </head>
 
-  <body>
-    <div>
+  <div>
       <nav class="navbar bg-light navbar-expand-lg fixed-top">
         <!-- Navbar toggler for small screens -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,8 +29,8 @@ Berikut adalah perbaikan dari HTML yang telah Anda kirimkan:
           <a class="navbar-brand" href="#section1">Allfariz Rajih Galib</a>
     
           <!-- Navbar links centered -->
-          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
               <li class="nav-item">
                 <a class="nav-link" href="#section1">Home</a>
               </li>
@@ -48,15 +47,22 @@ Berikut adalah perbaikan dari HTML yang telah Anda kirimkan:
                 <a class="nav-link" href="#section5">Portfolio</a>
               </li>
             </ul>
+            
+            <!-- Search Form -->
+            <form class="d-flex me-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+
+            <!-- Contact button on the far right -->
+            <button class="btn btn-warning ms-auto">
+              <a class="nav-link text-white" href="#section6">Contact Now</a>
+            </button>
           </div>
-    
-          <!-- Contact button on the far right -->
-          <button class="btn btn-warning" style="margin-left: auto">
-            <a class="nav-link text-white" href="#section6">Contact Now</a>
-          </button>
         </div>
       </nav>
     </div>
+
 
     <header class="py-5" id="section1">
       <div class="container text-center">

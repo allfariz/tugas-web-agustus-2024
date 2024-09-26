@@ -365,7 +365,21 @@ Berikut adalah perbaikan dari HTML yang telah Anda kirimkan:
 
   <div class="row text-sm-center">
     <div class="col-md-4 col-6 border border-black border-5">fariz</div>
-    <div class="col-md-4 col-6 border border-black border-5">fariz</div>
+    <div class="col-md-4 col-6 border border-black border-5">
+      <form>
+        <div class="form-group text-sm-start">
+            <label for="nama">Nama</label>
+            <input type="text" class="form-control" id="nama" placeholder="Masukkan nama Anda">
+        </div>
+        <div class="form-group text-sm-start">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda">
+        </div>
+        <div class="form-group text-sm-end">
+        <button type="submit" class="btn btn-warning btn-block">KIRIM</button>
+      </div>
+    </form>
+    </div>
     <div class="col-md-4 col-6 border border-black border-5">fariz</div>
   </div>
 
